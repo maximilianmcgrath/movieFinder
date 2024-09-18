@@ -1,0 +1,45 @@
+
+.hidden{
+    display: none;
+}
+#indiv-movie{
+    height: 460px;
+    width: auto;
+
+}
+
+
+#movie-info{
+    margin-left: auto;
+    margin-right: auto ;
+    text-align: center;
+}
+
+#hover-info{
+    position:relative;
+    top: -400px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#movie-details{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: none;
+}
+@font-face{
+    font-family: "Planets";
+    src:  url('fonts/planet.TTF');
+}
+#pagetitle{
+    font-family:  "Planets";
+    color: #911e1c;
+}
+#sub{
+    color: #911e1c;
+}
+#submit-btn {
+    background-color: #911e1c;
+    color: white;
+}

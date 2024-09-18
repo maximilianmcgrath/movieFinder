@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie Finder API</title>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="movies.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+</head>
+<body>
+    <div id = "page" class = "container-fluid">
+        <div class="row">
+			<h1 class="col-12 mt-5 text-center font-weight-bold" id ="pagetitle">🎬🍿 movie finder 🍿🎬</h1>
+		</div>
+        <div class="row">
+            <p class="col-12 text-center" id="sub">by Max McGrath</p>
+        </div>
+        <div class="row">
+			<form action="" class="col-12" id="search-form">
+				<div class="form-row">
+					<div class="col-12 mt-4 col-sm-9 col-lg-9">
+						<label for="search-term" class="sr-only">Search:</label>
+						<input type="text" name="" class="form-control" id="search-term" placeholder="Search">
+                    </div>
+					<div class="col-12 mt-4 col-md-3 col-lg-3 col-sm-auto">
+						<button id = "submit-btn" type="submit" class="btn btn-block">Find your movie!</button>
+
+					</div>
+                    <div class="col-12 mt-1 ml-1 col-md-3 col-lg-3 col-sm-auto">
+                        <small id="term-error" class="form-text text-danger"> </small>
+                    </div>
+                    
+				</div>
+			</form>
+		</div>
+        <div class = "row ml-1 mt-2">
+            <p id = "search-stats"></p>
+        </div>   
+        <div class = "row" id = "movie-details">
+        </div>
+    </div>   
+    <script src="main.js"></script>
+</body>
+</html>
